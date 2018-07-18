@@ -1,0 +1,6 @@
+Dir::Etc "/etc/admin/clip_install";
+Dir::Etc::SourceList "/etc/clip_update/clip_install/sources.list.rm.core";
+Dir::Etc::Preferences "/etc/admin/clip_install/preferences.rm";
+Dir::Cache "/var/pkg/cache/apt/clip_install/rm/core";
+Dir::State "/var/pkg/cache/apt/clip_install/rm/core"; 
+Dir::State::Status "/var/pkg/lib/dpkg/status";
